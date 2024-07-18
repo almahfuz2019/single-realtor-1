@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.custom-shadow {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.16);
+}
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+.playfair-display-font {
+  font-family: "Playfair Display", serif;
+}
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+}
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+}
+.dfasd {
+  font-family: "Didact Gothic" sans-serif;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+/* scroll  */
+html {
+  scroll-behavior: smooth;
+}
